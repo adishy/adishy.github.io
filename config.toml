@@ -56,7 +56,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   # 
   description = "Aditya Shylesh | Aditya Shylesh's personal website!"
-  keywords = ""
+  keywords = "Aditya Shylesh"
   images = [""]
 
   # Home subtitle of the index page.
@@ -104,10 +104,10 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = true
-    rss = true
-    copyright = true
-    author = true
+    trademark = false
+    rss = false
+    copyright = false
+    author = false
 
     topText = []
     bottomText = []
@@ -144,10 +144,10 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  [params.portrait]
+     path     = "/img/profile.jpg"
+     alt      = "Aditya Shylesh's profile picture"
+     maxWidth = "80px"
 
   # Social icons
 
@@ -170,7 +170,7 @@ disableHugoGeneratorInject = false
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
-  #[[menu.main]]
-  #  identifier = "about"
-  #  name       = "About"
-  #  url        = "about/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
