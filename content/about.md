@@ -1,8 +1,14 @@
+---
+title: "About Me | Aditya Shylesh"
+---
+
 <p align="center">
-  <img src="../img/about.png" height="140px" style="margin-bottom: 25px; margin-top: 25px"  />
-</p>
+  <img src="../img/about.png" alt="General Kenobi says Hello There!" height="140px" style="margin-bottom: 25px; margin-top: 25px"  />
+
+</p>}}
 
 ## Hello there!
+
 Thanks for stopping by my slice of the internet.
 
 I am Aditya, a software developer based in Champaign, IL, currently working at Yahoo. I am an immigrant two times over - I was born in India but grew up in the middle-east (Oman) and studied in the U.S: I did my undergrad in Computer Science at the University of Michigan, Ann Arbor, and graduated in May 2021. 
