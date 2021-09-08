@@ -1,9 +1,6 @@
+![General Kenobi says Hello There!](/img/about.png#center)
+
 ## Hello there!
-
-<p align="center">
-  <img src="../img/about.png" alt="General Kenobi says Hello There!" height="140px" style="margin-bottom: 25px; margin-top: 25px"  />
-
-</p>}}
 
 Thanks for stopping by my slice of the internet.
 
