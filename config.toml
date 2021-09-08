@@ -147,7 +147,7 @@ disableHugoGeneratorInject = false
   [params.portrait]
      path     = "/img/profile.jpg"
      alt      = "Aditya Shylesh's profile picture"
-     maxWidth = "80px"
+     maxWidth = "105px"
 
   # Social icons
 
