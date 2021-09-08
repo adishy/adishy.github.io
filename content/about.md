@@ -1,4 +1,4 @@
-![General Kenobi says Hello There!](/img/about.png#center)
+![General Kenobi says Hello There!](/img/about.png#about)
 
 ## Hello there!
 
