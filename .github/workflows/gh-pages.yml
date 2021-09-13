@@ -19,6 +19,4 @@ jobs:
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
           cname: adishy.com
-          branch: master
           args: --gc --minify --cleanDestinationDir
-          siteDir: /github/workspace/public
