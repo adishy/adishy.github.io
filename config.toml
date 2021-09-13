@@ -122,7 +122,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd /home/adishy/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -162,6 +162,14 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/adishy"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/__adishy__"
+
+  [[params.social]]
+    name = "youtube"
+    url  = "https://youtube.com/adishy"
 
 [languages]
   [languages.en]
