@@ -1,8 +1,0 @@
-img[src$='#about']
-{
-    display: block;
-    margin: auto; 
-    height: 140px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
