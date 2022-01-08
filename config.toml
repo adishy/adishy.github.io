@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -147,7 +147,7 @@ disableHugoGeneratorInject = false
   [params.portrait]
      path     = "/img/profile.jpg"
      alt      = "Aditya Shylesh's profile picture"
-     maxWidth = "105px"
+     maxWidth = "120px"
 
   # Social icons
 
@@ -182,3 +182,7 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "https://blog.adishy.com"
