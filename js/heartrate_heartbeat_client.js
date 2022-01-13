@@ -65,6 +65,8 @@ function render(parent, heartRate, timestampFmt, status) {
 	      fill: #e70b39;
 	      position: relative;
 	      width: 22px;
+	      height: 22px;
+              margin-top: 14px;
        	      padding-left: 10px;
 	      animation: pulse ${Math.round((60/heartRate + Number.EPSILON) * 100) / 100}s ease infinite;
 	    }
