@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aditya Shylesh | Timeline</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background: #232425;
+  letter-spacing: 1px;
+}
+a {
+  color: #eeeccc;
+}
+.container {
+  max-width: 715px;
+  margin: 50px auto;
+  color: white;
+} 
+@media only screen and (max-width: 768px) {
+    .container {
+      max-width: 89%;
+    }
+}
+.empty {
+    height: 20vh;
+    max-height: 160px;
+    background: #1b1c1d;
+}
+.personal-header {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  color: white;
+  padding-top: 30px;
+}
+.personal-header h1 {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.personal-header p{
+  padding-left: 8px;
+  font-weight: 16px;
+  color: #747474;
+  font-weight: 300;
+}
+.profile {
+  border-radius: 100%;
+  height: 90px;
+}
+p {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 4rem;
+  margin: 0 0 0 30px;
+  color: white;
+}
+.timeline:before {
+  content: "";
+  position: absolute;
+  border-radius: 15px;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: #363636;
+}
+.description {
+  padding-top: 8px;
+}
+.timeline .timeline-container {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+.timeline .timeline-container .timeline-icon {
+  position: absolute;
+  left: -88px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2rem;
+  background: #4f537b;
+}
+.timeline .timeline-container .timeline-icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.timeline .timeline-container .timeline-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.timeline .timeline-container .timeline-body {
+  background: #2F2F34;
+  border-radius: 3px;
+  padding: 20px 20px 15px;
+  box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.1);
+}
+.timeline .timeline-container .timeline-body .timeline-title {
+  margin-bottom: 1.4rem;
+}
+.timeline .timeline-container .timeline-body .timeline-title .badge {
+  background: #4f537b;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.timeline-title {
+    font-size: 15px;
+}
+.timeline .timeline-container .timeline-body .timeline-subtitle {
+  font-weight: 300;
+  opacity: 0.4;
+  padding: 2px;
+  margin-top: 16px;
+  font-size: 12px;
+}
+.timeline-body {
+  cursor: pointer;
+}
+.move-background:hover {
+  background: linear-gradient(-45deg, #1a1a1a, #3a3939);
+	background-size: 100% 100%;
+	-webkit-animation: Gradient 2s ease infinite;
+	-moz-animation: Gradient 2s ease infinite;
+    animation: Gradient 2s ease infinite;
+    transition: all 0.2s linear;
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50% 
+   }
+    50% {
+        background-position: 100% 50% 
+   }
+    100% {
+        background-position: 0% 50% 
+   }
+  }
+
+  @-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50% 
+   }
+    50% {
+        background-position: 100% 50% 
+   }
+    100% {
+        background-position: 0% 50% 
+   }
+  }
+
+  @keyframes Gradient {
+    0% {
+        background-position: 0% 50% 
+   }
+    50% {
+        background-position: 100% 50% 
+   }
+    100% {
+        background-position: 0% 50% 
+   }
+  }
+
+.bold-upper-case {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.icon-size {
+  font-size: 21px;
+}
+.timeline .timeline-container.primary .badge,
+.timeline .timeline-container.primary .timeline-icon {
+  background: #1d8cf8 !important;
+}
+.timeline .timeline-container.info .badge,
+.timeline .timeline-container.info .timeline-icon {
+  background: #11cdef !important;
+}
+.timeline .timeline-container.success .badge,
+.timeline .timeline-container.success .timeline-icon {
+  background: #00bf9a !important;
+}
+.timeline .timeline-container.warning .badge,
+.timeline .timeline-container.warning .timeline-icon {
+  background: #ff8d72 !important;
+}
+.timeline .timeline-container.danger .badge,
+.timeline .timeline-container.danger .timeline-icon {
+  background: #fd5d93 !important;
+}
+
+ </style>
+    </head>
+    <body>
+        <div class="empty">
+            <div class="personal-header">
+              <img class="profile" src="https://adishy.com/img/profile.jpg">
+              <div>
+                 <h1>Aditya Shylesh</h1>
+                 <p>@adishy • Champaign, IL</p>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="timeline">
+                <div class="timeline-container primary">
+                    <div class="timeline-icon">
+                      <i class="icon-size fas fa-briefcase"></i>
+                    </div>
+                    <div class="move-background timeline-body">
+                        <h4 class="timeline-title"><span class="badge">STARTED A NEW JOB</span></h4>
+                        <h2>Software Developer</h2>
+                        <h4>Yahoo Inc.</h4>
+                        <p class="description">
+                          Currently, I'm working as a software / production engineer in a dev-ops team in the Ads Infrastructure team at Yahoo. I'm responsible for supporting and improving revenue-bearing big data ad-pipeline
+                        </p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> 14 JULY 2021</span></p>
+                    </div>
+                </div>
+                <div class="timeline-container danger">
+                    <div class="timeline-icon">
+                      <i class="icon-size fas fa-building"></i>
+                    </div>
+                    <div class="move-background timeline-body">
+                        <h4 class="timeline-title"><span class="badge">WORKED AT AN INTERNSHIP</span></h4>
+                        <h2>Software Engineering Intern</h2>
+                        <h4>Apple Inc.</h4>
+                        <p class="description">
+                          I worked in the Software Delivery department at Apple, which was responsible for managing internal infrastructure. I primarily worked on a Ruby on Rails based distributed system 
+                           which managed virtual machines and bare metal servers, that build systems werer deployed on. I also got to participate in the Intern iContest, an Apple event where the interns get 
+                           to develop and present innovative ideas to the rest of the company. I worked in team a team of two and presented our idea in the final round of the contest to a large audience, which also 
+                           included VPs from multiple Apple orgs. This was actually the most exciting and formative experience during my internship and taught me how to think critically about product research, market-fit and development.
+                        </p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> 5 JUNE 2020</span></p>
+                    </div>
+                </div>
+                <div class="timeline-container warning">
+                    <div class="timeline-icon">
+                      <i class="icon-size fas fa-vial"></i>
+                    </div>
+                    <div class="move-background timeline-body">
+                        <h4 class="timeline-title"><span class="badge">WORKED IN A RESEARCH LAB</span></h4>
+                        <h2>Undergraduate Research Assistant</h2>
+                        <h4>UM comp.social Lab & UIUC SCUBA Lab</h4>
+                        <p class="description">
+                          I developed for <a href="http://eegilbert.org/papers/cscw19-chand-crossmod.pdf">Crossmod, a social computing machine learning research system</a> created by Eshwar Chandrasekharan and Dr. Eric Gilbert, implemented using FastText classifiers that assists Reddit moderators in the r/Futurology subreddit, by classifying comment toxicity.
+                          I worked with four other undergrad researchers to refactor the codebase for <a href="http://github.com/ceshwar/crossmod">deploying as a real-time system</a> on Amazon AWS,with an API, integrated analytics collection and retraining mechanisms. I also integrated a backend database for the system to be used for retraining and data collection.
+                        </p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> SEPT 2019 - MAY 2020</span></p>
+                    </div>
+                </div>
+                <div class="timeline-container danger">
+                    <div class="timeline-icon">
+                      <i class="icon-size fas fa-building"></i>
+                    </div>
+                    <div class="move-background timeline-body">
+                        <h4 class="timeline-title"><span class="badge">WORKED AT AN INTERNSHIP</span></h4>
+                        <h2>Software Development Fellow</h2>
+                        <h4>Center for Academic Innovation, University of Michigan</h4>
+                        <p class="description">
+                          I developed for an app called <a href="https://gradecraft.com/about" target="_blank">Gradecraft</a>, a learning management system used by over 10000 users in various K-12 schools and several U.S universities. This was the first substantially big codebase that I worked on - it was also in a new language and framework I hadn't used until that point: Ruby on Rails.  I worked as an intern here for 4 months, where I performed tasks such as fixing bugs, implementing new features, reviewing code written by co-contributors and producing documentation. 
+                          I helped overhaul the platform to use a new cloud storage solution, working closely with senior developers and dev-ops personnel.
+                          I also worked part-time after my internship after my internship and worked to improve the app - I helped port some legacy AngularJS front-end code to Vue, and also wrote some new features. I learnt a lot about working on a large codebase with other people, and also about Ruby and Rails during my time here. 
+                        </p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> MAY 2019 - MAY 2020</span></p>
+                    </div>
+                </div>
+                <!--div class="timeline-container danger">
+                    <div class="timeline-icon">
+                        <i class="far fa-grin-hearts"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="timeline-title"><span class="badge">Danger</span></h4>
+                        <h2>Hello there!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus numquam earum ipsa fugiat veniam suscipit, officiis repudiandae, eum recusandae neque dignissimos. Cum fugit laboriosam culpa, repellendus esse commodi deserunt.</p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> 1 HOUR AGO</span></p>
+                    </div>
+                </div>
+                <div class="timeline-container success">
+                    <div class="timeline-icon">
+                        <i class="far fa-grin-tears"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="timeline-title"><span class="badge">Success</span></h4>
+                        <h2>Hello there!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus numquam earum ipsa fugiat veniam suscipit, officiis repudiandae, eum recusandae neque dignissimos. Cum fugit laboriosam culpa, repellendus esse commodi deserunt.</p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> 1 HOUR AGO</span></p>
+                    </div>
+                </div>
+                <div class="timeline-container warning">
+                    <div class="timeline-icon">
+                        <i class="far fa-grimace"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="timeline-title"><span class="badge">Warning</span></h4>
+                        <h2>Hello there!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus numquam earum ipsa fugiat veniam suscipit, officiis repudiandae, eum recusandae neque dignissimos. Cum fugit laboriosam culpa, repellendus esse commodi deserunt.</p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> 1 HOUR AGO</span></p>
+                    </div>
+                </div>
+                <div class="timeline-container">
+                    <div class="timeline-icon">
+                        <i class="far fa-grin-beam-sweat"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="timeline-title"><span class="badge">Secondary</span></h4>
+                        <h2>Hello there!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus numquam earum ipsa fugiat veniam suscipit, officiis repudiandae, eum recusandae neque dignissimos. Cum fugit laboriosam culpa, repellendus esse commodi deserunt.</p>
+                        <p class="timeline-subtitle bold-upper-case"><i class="far fa-calendar"></i><span class="bold-upper-case"> 1 HOUR AGO</span></p>
+                    </div>
+                </div>
+                <div class="timeline-container info">
+                    <div class="timeline-icon">
+                        <i class="far fa-grin"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="timeline-title"><span class="badge">Info</span></h4>
+                        <h2>Hello there!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus numquam earum ipsa fugiat veniam suscipit, officiis repudiandae, eum recusandae neque dignissimos. Cum fugit laboriosam culpa, repellendus esse commodi deserunt.</p>
+                        <p class="timeline-subtitle"><i class="far fa-calendar"></i> 10 Days ago</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </body>
+
+</html>
