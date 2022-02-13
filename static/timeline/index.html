@@ -20,6 +20,19 @@ body {
 a {
   color: #eeeccc;
 }
+		
+.head-link {
+   cursor: pointer;	
+}
+		
+.heading-link a {
+  color: white;	
+}
+
+.heading-link a:visited {
+  color: white;
+}
+		
 .container {
   max-width: 715px;
   margin: 50px auto;
@@ -210,15 +223,19 @@ p {
  </style>
     </head>
     <body>
+	
         <div class="empty">
             <div class="personal-header">
-              <img class="profile" src="https://adishy.com/img/profile.jpg">
-              <div>
-                 <h1>Aditya Shylesh</h1>
-                 <p>@adishy • Champaign, IL</p>
-              </div>
-            </div>
+	      <a class="heading-link" href="https://adishy.com">	 
+		      <img class="profile" src="https://adishy.com/img/profile.jpg">
+		      <div>
+			 <h1>Aditya Shylesh</h1>
+			 <p>@adishy • Champaign, IL</p>
+		      </div>
+		    </div>
+	       </a>
         </div>
+	
         <div class="container">
             <div class="timeline">
                 <div class="timeline-container primary">
